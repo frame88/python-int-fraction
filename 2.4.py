@@ -7,3 +7,5 @@ if n < d:
 if n % d == 0:
     print ('frazione apparente')
 
+if n>d and n%d!=0:
+    print('frazione impropria')
