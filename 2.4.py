@@ -3,3 +3,7 @@ d = int(input('inserisci un denominatore: '))
 
 if n < d:
     print('frazione propria')
+
+if n % d == 0:
+    print ('frazione apparente')
+
